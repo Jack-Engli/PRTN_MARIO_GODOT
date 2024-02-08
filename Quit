@@ -1,0 +1,6 @@
+extends Button
+
+var end = 0
+
+func _on_button_up() -> void:
+	get_tree().quit(end)
