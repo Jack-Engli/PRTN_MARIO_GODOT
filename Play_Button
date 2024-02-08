@@ -1,0 +1,9 @@
+@tool
+
+extends Button
+
+
+@export var next_scene_path: = "res://src/Levels/Level1.tscn" # (String, FILE)
+
+func _on_button_up():
+	get_tree().change_scene_to_file(next_scene_path)
